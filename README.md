@@ -44,6 +44,7 @@ CLI-инструмент для анализа и визуализации гр�
 ```bash
 git clone https://github.com/<your-username>/configproj2.git
 cd configproj2
+```
 
 ---
 
@@ -62,7 +63,7 @@ cd configproj2
 | `-a`        | ASCII-дерево          | Нужна визуализация  |
 | `--reverse` | Обратные зависимости  | Анализ влияния      |
 | `--d2`      | D2-формат             | Построение диаграмм |
-
+```
 ---
 
 ##Пример работы
@@ -403,7 +404,9 @@ express@4.18.2
 
 
 Process finished with exit code 0
+```
 
-![Граф зависимостей express](screenshot_7.png)
+<img width="663" height="678" alt="Screenshot_7" src="https://github.com/user-attachments/assets/a948832e-80ae-4a0f-878c-c53feb8db002" />
+
 
 

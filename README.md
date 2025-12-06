@@ -113,4 +113,42 @@ A@1.0.0
 
 Process finished with exit code 0
 
+Пример с реальной библиотекой
+
+main.py -n A -r random -m real -v 1.0.0 -d 5 -a --reverse --d2 
+Конфигурация:
+package_name=A
+repo=random
+mode=real
+version=1.0.0
+ascii_tree=True
+max_depth=5
+reverse=True
+d2=True
+
+[debug] Fetching: https://registry.npmjs.org/A/1.0.0
+Предупреждение: не удалось получить A@1.0.0: HTTP Error 404: Not Found
+Пробуем взять A@latest
+[debug] Fetching: https://registry.npmjs.org/litmus/latest
+[debug] Fetching: https://registry.npmjs.org/promised-io/latest
+Прямые зависимости A@1.0.0:
+  litmus@>=0.4.0
+
+Режим обратных зависимостей для A@1.0.0
+От этого пакета никто не зависит (в пределах построенного графа).
+
+ASCII-дерево обратных зависимостей:
+A@1.0.0
+
+Циклов в графе обратных зависимостей не обнаружено.
+
+--- D2 описание графа ---
+"A@1.0.0"
+"litmus@>=0.4.0"
+"promised-io@>= 0.2.3"
+"A@1.0.0" -> "litmus@>=0.4.0"
+"litmus@>=0.4.0" -> "promised-io@>= 0.2.3"
+
+
+
 ---

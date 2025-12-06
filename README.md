@@ -404,6 +404,6 @@ express@4.18.2
 
 Process finished with exit code 0
 
-<img width="663" height="678" alt="Screenshot_7" src="https://github.com/user-attachments/assets/0c2f5b7e-825a-4617-98a2-ad6f78bae68e" />
+![Граф зависимостей express](images/screenshot_7.png)
 
 

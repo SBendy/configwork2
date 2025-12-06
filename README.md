@@ -409,4 +409,5 @@ Process finished with exit code 0
 <img width="663" height="678" alt="Screenshot_7" src="https://github.com/user-attachments/assets/a948832e-80ae-4a0f-878c-c53feb8db002" />
 
 
+<img width="10082" height="957" alt="d2" src="https://github.com/user-attachments/assets/1c4bb088-975a-4127-b130-831820b2791e" />
 

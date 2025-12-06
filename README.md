@@ -404,6 +404,6 @@ express@4.18.2
 
 Process finished with exit code 0
 
-![Граф зависимостей express](images/screenshot_7.png)
+![Граф зависимостей express](screenshot_7.png)
 
 

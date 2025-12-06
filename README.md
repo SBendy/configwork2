@@ -39,7 +39,7 @@ CLI-инструмент для анализа и визуализации гр�
 
 ---
 
-## Установка
+## Установка и использование
 
 ```bash
 git clone https://github.com/<your-username>/configproj2.git
